@@ -18,6 +18,7 @@ These programs were developed in **Python 3** using **Jupyter Notebooks**.
 
 ## Limitations and extensions
 * These programs assume a five-electrode open-endcap cylindrical Penning trap with a minium inner radius of 0.4 cm. However, modifications are farily simple if the user knows the value of their C<sub>2</sub> quadrupole term expansion coefficient and knows that higher order expansion coefficients are negligable. No actual physical dimensions are then required, but the user must select a spatial grid in which to solve for the potential.
+* These programs assume a perfectly homogeneous and temporally stable magnetic field. They also assume ideal applied voltages generating a temporally stable electric field with no patch potentials or variation.
 
 ### Notebook 1: Find Plasma Dimensions - User Inputs
 * N<sub>ions</sub>: The number of ions you want to store in the trap. Must be a positive integer.
@@ -27,7 +28,7 @@ These programs were developed in **Python 3** using **Jupyter Notebooks**.
 * z<sub>gap</sub>: The size of the gap between adjacent electrodes. Must be between 0 and 5×10⁻⁴ meters.
 * U<sub>0</sub>: The applied electric potential in volts. Must be a positive value.
 * B<sub>0</sub>: The magnetic field strength in tesla. Must be a positive value.
-* T: Resistive cooling temperature. We assume all ions are always in thermal equilibrium with a heat bath with temperature T. Must be between 1 and 10.
+* T: Resistive cooling temperature in Kelvin. We assume all ions are always in thermal equilibrium with a heat bath with temperature T. Must be between 1 and 10.
 
 ### Notebook 2: Find N<sub>max</sub> - User Inputs
 
