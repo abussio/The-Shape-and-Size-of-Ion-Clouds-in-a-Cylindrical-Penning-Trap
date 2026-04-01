@@ -29,4 +29,11 @@ The code was developed in **Python 3** using **Jupyter Notebooks**.
 * B<sub>0</sub>: The magnetic field strength in tesla. Must be a positive value.
 * T: Resistive cooling temperature. We assume all ions are always in thermal equilibrium with a heat bath with temperature T. Must be between 1 and 10.
 
+### Resources
+* To determine the C<sub>2</sub> quadrupole expansion coefficient, this program uses the method described in  
+  ["Calculation of the electrostatic potential field for an open-endcap cylindrical penning trap" by K. A. Farrar](https://doi.org/10.1016/S0168-9002(01)02110-6)
+
+* To determine the shape and size of the ion cloud, this program uses the method described in  
+  ["Trapped nonneutral plasmas, liquids, and crystals (the thermal equilibrium states)" by Daniel H. E. Dubin and T. M. O'Neil](https://doi.org/10.1103/RevModPhys.71.87)
+
 Date of last edit: April 1, 2026
